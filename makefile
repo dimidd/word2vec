@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -lm -pthread -Ofast -march=native -Wall -funroll-loops -Wno-unused-result
+CFLAGS = -lm -pthread -Ofast -march=native -Wall -funroll-loops -Wno-unused-result -Wa,-q
 
 all: word2vec word2phrase distance word-analogy compute-accuracy
 
